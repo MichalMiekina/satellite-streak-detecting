@@ -1,0 +1,12 @@
+powrót z MGR do SUTO, czyli zbadać etap wykrywania satelit, więc info w notatce pisemnej
+
+tldr spr czy nie wykrywa przez brak dobrych formatów zdjęć - TODO 
+
+i czy ACStools paruje dane z satelitami - ACS nie ma takiej mocy
+
+^ wszystko smiga z identyfikacją - upgrade na przełomie wrzesień/październik 2024
+
+
+_______________________________________________________________________________________________________________
+
+TODO wracamy do MGR - spróbować podejścia boostowania ACStoolsa-(np ale niekoniecznie), poprzez uzycie CNN, learn trans etc
