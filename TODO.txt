@@ -10,3 +10,9 @@ i czy ACStools paruje dane z satelitami - ACS nie ma takiej mocy
 _______________________________________________________________________________________________________________
 
 TODO wracamy do MGR - spróbować podejścia boostowania ACStoolsa-(np ale niekoniecznie), poprzez uzycie CNN, learn trans etc
+
+
+_______________________________________________________________________________________________________________
+
+TODO - sprobowac efektywnosci modelu z transferem uczenia podboostowanym przez augmentacje. 
+Jak bedzie slabo, to sprobowac uczyc braku smugi
