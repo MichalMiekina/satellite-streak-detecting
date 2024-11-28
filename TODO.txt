@@ -1,18 +1,20 @@
 powrót z MGR do SUTO, czyli zbadać etap wykrywania satelit, więc info w notatce pisemnej
-
 tldr spr czy nie wykrywa przez brak dobrych formatów zdjęć - TODO 
-
 i czy ACStools paruje dane z satelitami - ACS nie ma takiej mocy
 
-^ wszystko smiga z identyfikacją - upgrade na przełomie wrzesień/październik 2024
-
+^ wszystko smiga z identyfikacją - upgrade z przełomu wrzesień/październik 2024
 
 _______________________________________________________________________________________________________________
 
 TODO wracamy do MGR - spróbować podejścia boostowania ACStoolsa-(np ale niekoniecznie), poprzez uzycie CNN, learn trans etc
 
-
-_______________________________________________________________________________________________________________
-
 TODO - sprobowac efektywnosci modelu z transferem uczenia podboostowanym przez augmentacje. 
 Jak bedzie slabo, to sprobowac uczyc braku smugi
+
+resnet_png.ipynb
+
+poszerzyć bazę danych niesmugowych pod test próby z augmentacją, a potem mozliwe ze poszerzyc jeszcze na podejscie niesmugowe
+
+Koncowka listopada 2k24 - mam 23 smugowe zdj, dołożyłem n-smug do sumy 47. 
+Przetestować jakiś model powstały w wyniku transferu + fine-tune. W razie potrzeby dołożyć dane augmentacją. 
+Jeśli nie będzie fajnych wyników, to spróbować wykrywać n-smugi!
