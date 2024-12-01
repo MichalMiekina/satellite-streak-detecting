@@ -21,3 +21,6 @@ Jeśli nie będzie fajnych wyników, to spróbować wykrywać n-smugi!
 
 
 resnet_fit_add_train.ipynb - tu chyba mam coś z finetunem ale nie wiem czy działa, do sprawdzenia
+
+zrobilem nowy skrypt do predykcji streak/nostreak. 
+Nie dziala dobrze by samemu decydować ale moze nadałby się do oceny czy jest szansa wgl na streak i czy warto sprawdzac dalej?
