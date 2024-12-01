@@ -18,3 +18,6 @@ poszerzyć bazę danych niesmugowych pod test próby z augmentacją, a potem moz
 Koncowka listopada 2k24 - mam 23 smugowe zdj, dołożyłem n-smug do sumy 47. 
 Przetestować jakiś model powstały w wyniku transferu + fine-tune. W razie potrzeby dołożyć dane augmentacją. 
 Jeśli nie będzie fajnych wyników, to spróbować wykrywać n-smugi!
+
+
+resnet_fit_add_train.ipynb - tu chyba mam coś z finetunem ale nie wiem czy działa, do sprawdzenia
