@@ -35,3 +35,5 @@ done - add augmentation filter for only streaked
 wypróbuj teraz resnet przy wiekszej liczbie danych
 
 popraw w augmentacji kontrast bo rozwala zdjecia. - . dodaj niesmugowe zdj do bazy. najlepiej to zautomatyzować
+
+chyba wywalic 3 najmniej wyraźne smugi wiec byloby 20 zdjęć. z aug 40 lub 60. wtedy niesmug 80/120/160 lub 120/180/240
