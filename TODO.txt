@@ -30,4 +30,8 @@ faktor/probability dziala ciulato - sprobowac z danymi zwiekszonymi augmentacją
 Mam aktualnie 23 smugowe zdj. Niesmugi wstępnie oceniam na setki zdjęć.
 Czy przy próbie nauczenia go wykrywania niesmug - śmieciowych zdjęć niewartych analizy ACSem - powinienem ich uzyc?
 
-add augmentation filter for only streaked
+done - add augmentation filter for only streaked 
+
+wypróbuj teraz resnet przy wiekszej liczbie danych
+
+popraw w augmentacji kontrast bo rozwala zdjecia. - . dodaj niesmugowe zdj do bazy. najlepiej to zautomatyzować
