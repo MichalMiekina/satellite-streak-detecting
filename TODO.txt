@@ -27,13 +27,10 @@ reorganise_data.ipynb - uklada pliki na bazie slownika csv
 Nie dziala dobrze by samemu decydować ale moze nadałby się do oceny czy jest szansa wgl na streak i czy warto sprawdzac dalej?
 faktor/probability dziala ciulato - sprobowac z danymi zwiekszonymi augmentacją ale raczej bedzie trzeba UCZYC NA NIESMUGACH MASOWO
 
-Mam aktualnie 23 smugowe zdj. Niesmugi wstępnie oceniam na setki zdjęć.
-Czy przy próbie nauczenia go wykrywania niesmug - śmieciowych zdjęć niewartych analizy ACSem - powinienem ich uzyc?
+Mam aktualnie 23 smugowe zdj. Niesmugi jest kilkaset dla tego samego okresu.
 
 done - add augmentation filter for only streaked 
 
-wypróbuj teraz resnet przy wiekszej liczbie danych
+dodaj niesmugowe zdj do bazy. najlepiej to zautomatyzować
 
-popraw w augmentacji kontrast bo rozwala zdjecia. - . dodaj niesmugowe zdj do bazy. najlepiej to zautomatyzować
-
-chyba wywalic 3 najmniej wyraźne smugi wiec byloby 20 zdjęć. z aug 40 lub 60. wtedy niesmug 80/120/160 lub 120/180/240
+może wywalic 3 najmniej wyraźne smugi wiec byloby 20 zdjęć. z aug 40 lub 60. wtedy niesmug 80/120/160 lub 120/180/240
