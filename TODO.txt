@@ -34,3 +34,6 @@ done - add augmentation filter for only streaked
 dodaj niesmugowe zdj do bazy. najlepiej to zautomatyzować
 
 może wywalic 3 najmniej wyraźne smugi wiec byloby 20 zdjęć. z aug 40 lub 60. wtedy niesmug 80/120/160 lub 120/180/240
+- np tic14.fit chyba wywalić
+
+porównać z projektem dla Dawida P
