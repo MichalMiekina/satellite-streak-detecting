@@ -11,29 +11,21 @@ TODO wracamy do MGR - spróbować podejścia boostowania ACStoolsa-(np ale nieko
 TODO - sprobowac efektywnosci modelu z transferem uczenia podboostowanym przez augmentacje. 
 Jak bedzie slabo, to sprobowac uczyc braku smugi
 
-resnet_png.ipynb
+resnet_png.ipynb - stara wersja, stare podejscie
 
-poszerzyć bazę danych niesmugowych pod test próby z augmentacją, a potem mozliwe ze poszerzyc jeszcze na podejscie niesmugowe
-
-Koncowka listopada 2k24 - mam 23 smugowe zdj, dołożyłem n-smug do sumy 47. 
-Przetestować jakiś model powstały w wyniku transferu + fine-tune. W razie potrzeby dołożyć dane augmentacją. 
-Jeśli nie będzie fajnych wyników, to spróbować wykrywać n-smugi!
-
-
-resnet_fit_add_train.ipynb - tu chyba mam coś z finetunem ale nie wiem czy działa, do sprawdzenia
-
-resnet_with_finetune.ipynb - zrobilem nowy skrypt do predykcji streak/nostreak. 
-reorganise_data.ipynb - uklada pliki na bazie slownika csv
-Nie dziala dobrze by samemu decydować ale moze nadałby się do oceny czy jest szansa wgl na streak i czy warto sprawdzac dalej?
-faktor/probability dziala ciulato - sprobowac z danymi zwiekszonymi augmentacją ale raczej bedzie trzeba UCZYC NA NIESMUGACH MASOWO
-
-Mam aktualnie 23 smugowe zdj. Niesmugi jest kilkaset dla tego samego okresu.
-
-done - add augmentation filter for only streaked 
-
-dodaj niesmugowe zdj do bazy. najlepiej to zautomatyzować
-
-może wywalic 3 najmniej wyraźne smugi wiec byloby 20 zdjęć. z aug 40 lub 60. wtedy niesmug 80/120/160 lub 120/180/240
-- np tic14.fit zdecydowanie, i chyba 13 oraz 12
 
 porównać z projektem dla Dawida P
+
+
+    phases
+
+step no1 manually prepare data, especially streak files - probably copy as a new folder
+2. use reorganise_fit.ipynb to set nostreak data 
+3. filtring_fits.ipynb
+4. aug_folder_png.ipynb
+5. reorganise_imgs.ipynb
+6. resnet_with_finetune.ipynb - zrobilem nowy skrypt do predykcji streak/nostreak. 
+
+Bez tic12,13,14 mam znacznie lepsze wyniki - dość dobrze potrafi odseparować dużą część zdjęc niesmugowych
+20 zdjęć smugowych wiec niesmug np 80/120/160 lub 120/180/240 
+Moze warto tez sprobowac bez fit6 które mam z neta
