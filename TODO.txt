@@ -1,15 +1,10 @@
-powrót z MGR do SUTO, czyli zbadać etap wykrywania satelit, więc info w notatce pisemnej
-tldr spr czy nie wykrywa przez brak dobrych formatów zdjęć - TODO 
+
+tldr spr czy nie wykrywa przez brak dobrych formatów zdjęć
 i czy ACStools paruje dane z satelitami - ACS nie ma takiej mocy
 
 ^ wszystko smiga z identyfikacją - upgrade z przełomu wrzesień/październik 2024
 
 _______________________________________________________________________________________________________________
-
-TODO wracamy do MGR - spróbować podejścia boostowania ACStoolsa-(np ale niekoniecznie), poprzez uzycie CNN, learn trans etc
-
-TODO - sprobowac efektywnosci modelu z transferem uczenia podboostowanym przez augmentacje. 
-Jak bedzie slabo, to sprobowac uczyc braku smugi
 
 resnet_png.ipynb - stara wersja, stare podejscie
 
@@ -28,4 +23,4 @@ step no1 manually prepare data, especially streak files - probably copy as a new
 
 Bez tic12,13,14 mam znacznie lepsze wyniki - dość dobrze potrafi odseparować dużą część zdjęc niesmugowych
 20 zdjęć smugowych wiec niesmug np 80/120/160 lub 120/180/240 
-Moze warto tez sprobowac bez fit6 które mam z neta
+Moze warto tez sprobowac bez fit6 które mam z neta i jest mega specyficzne dlatego też
