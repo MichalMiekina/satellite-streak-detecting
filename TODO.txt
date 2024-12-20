@@ -24,3 +24,7 @@ step no1 manually prepare data, especially streak files - probably copy as a new
 Bez tic12,13,14 mam znacznie lepsze wyniki - dość dobrze potrafi odseparować dużą część zdjęc niesmugowych
 20 zdjęć smugowych wiec niesmug np 80/120/160 lub 120/180/240 
 Moze warto tez sprobowac bez fit6 które mam z neta i jest mega specyficzne dlatego też
+
+opisac w dokumentacji zarówno wersje resnetu, inne algorytmy oraz bazdy danych (u mnie imagenetk1v1)
+
+Dla odsunięcia ewentualnych oskarżeń o overtraining odseparować kilka obrazów od procesu uczenia i przetestować że się spisuje
