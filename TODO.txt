@@ -28,3 +28,11 @@ Moze warto tez sprobowac bez fit6 które mam z neta i jest mega specyficzne dlat
 opisac w dokumentacji zarówno wersje resnetu, inne algorytmy oraz bazdy danych (u mnie imagenetk1v1)
 
 Dla odsunięcia ewentualnych oskarżeń o overtraining odseparować kilka obrazów od procesu uczenia i przetestować że się spisuje
+
+
+TODO
+
+s = TrailFinder(reduced_image, processes=2, threshold=2, min_length=200, min_persistence=0.4, max_width=30)
+
+sprawdzic co to jest w filtring_fits.ipynb, po co to? byc moze da sie to zredukowac bo chyba szuka kresek niepotrzebnie?
+# albo wgl nie potrzebna linia bo PNGowanie jest niżej za pomocą matplotliba?
