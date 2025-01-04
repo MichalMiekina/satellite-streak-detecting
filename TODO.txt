@@ -36,3 +36,55 @@ s = TrailFinder(reduced_image, processes=2, threshold=2, min_length=200, min_per
 
 sprawdzic co to jest w filtring_fits.ipynb, po co to? byc moze da sie to zredukowac bo chyba szuka kresek niepotrzebnie?
 # albo wgl nie potrzebna linia bo PNGowanie jest niżej za pomocą matplotliba?
+
+
+GAN zestawy algorytmów
+commity gdzie zachodzily zmiany
+d116099
+pozostale juz mam tu wpakowane, teraz porownac te zestawy alghs
+
+	10epok
+10epok	
+	gan1
+	32.4
+	35.1
+	32.9
+	34.5
+od tego wiersza wlacznie usuniety nadmierny conv w dyksryminatorze	51.9
+	30.9s
+	31.6
+	31.1s
+	31.8s
+	31.8s
+	31.6
+	30.7s
+	30.5s
+	31.2s
+	31.5s
+
+
+    For General-Purpose GANs:
+
+Generator: DCGAN or Progressive Growing GAN.
+Discriminator: DCGAN or Spectral Normalization.
+
+
+
+For High-Resolution Images:
+
+Generator: StyleGAN2 or BigGAN.
+Discriminator: Multi-Scale or Self-Attention.
+
+
+
+For Image-to-Image Translation:
+
+Generator: CycleGAN or U-Net.
+Discriminator: PatchGAN or Residual Discriminator.
+
+
+
+For Class-Conditioned Generation:
+
+Generator: BigGAN or StyleGAN.
+Discriminator: AC-GAN or Spectral Normalization.
